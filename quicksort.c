@@ -73,7 +73,7 @@ int main( int argc, char const *argv[] ) {
     quicksort(array, 0, num_elements);
 
     // Print the first and last 5 elements to check if the sorting is working
-    // check_output( array, num_elements );
+    check_output( array, num_elements );
 
     // free and exit
     free( array );
