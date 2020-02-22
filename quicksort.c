@@ -32,7 +32,7 @@ int partition( int arr[], int low, int high ) {
     int i;
     int temp;
 
-    for ( i = low; i <= ( high - 1 ); i++ ) {
+    for ( i = low; i < high; i++ ) {
         // If current element is smaller than the pivot
         if ( arr[i] < pivot ) {
             // Increment the smallest element
@@ -70,7 +70,7 @@ int main( int argc, char const *argv[] ) {
     int * array = generate_input( num_elements );
 
     // Sort the array using quicksort. This is in done in place on the heap
-    quicksort(array, 0, num_elements);
+    quicksort(array, 0, (num_elements-1));
 
     // Print the first and last 5 elements to check if the sorting is working
     check_output( array, num_elements );
