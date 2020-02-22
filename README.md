@@ -43,5 +43,7 @@
 ## 'make' Usage:
 
 `make all` -- makes both quicksort and radixsort
+
 `make quicksort` -- makes quicksort
+
 `make radixsort` -- makes radixsort
