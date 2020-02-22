@@ -1,4 +1,5 @@
 # Algorithms Homework 4 -- Part A
+### Authors: Philip Robinson, Hayden Liao
 
 ## Sorting algorithms completed:
 
@@ -7,34 +8,40 @@
 ## Included:
 
 * **sortlib**
-  * *sortlib.c / sortlib.h*
-  * contains all the important common functions for sorting, i.e. generating random list of specific length, printing first and last 5 elements
-    * **generate_random_num**
+  * **Files:** *sortlib.c / sortlib.h*
+  * **Description:** contains all the important common functions for sorting, i.e. generating random list of specific length, printing first and last 5 elements
+  * **Functions:**
+    * `generate_random_num`
       * params: none
       * return: *int*
-    * **generate_input**
+    * `generate_input`
       * params: *int* num_elements
       * return: *int[]*
-    * **check_output**
+    * `check_output`
       * params: *int* * arr, *int* size
       * return: *void*
 
 * **quicksort**
-  * *quicksort.c / quicksort.h*
-  * contains a recursive quicksort algorithm that uses a helper partition function that does the sorting
-    * **quicksort**
+  * **Files:** *quicksort.c / quicksort.h*
+  * **Description:** contains a recursive quicksort algorithm that uses a helper partition function that does the sorting
+  * **Functions:**
+    * `quicksort`
       * params: *int* * arr, *int* low, *int* high
       * return: *void*
-    * **partition**
+    * `partition`
       * params: *int* * arr, *int* low, *int* high
       * return: *int*
 
-* radixsort
-  * *to be implemented*
+* **radixsort**
+  * **Files:** *radixsort.c / radixsort.h*
+  * **Description:** --To be implemented--
+  * **Functions:**
+    * --To be implemented--
 
-* MAKEFILE
+* **MAKEFILE**
 
-## make Usage:
-make all -- makes both quicksort and radixsort
-make quicksort -- makes quicksort
-make radixsort -- makes radixsort
+## 'make' Usage:
+
+`make all` -- makes both quicksort and radixsort
+`make quicksort` -- makes quicksort
+`make radixsort` -- makes radixsort
